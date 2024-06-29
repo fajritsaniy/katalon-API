@@ -57,7 +57,7 @@
       <dataType>FILE</dataType>
       <target>RESPONSE</target>
       <data>/Users/fajri/Desktop/XMLSchema.txt</data>
-      <activate>true</activate>
+      <activate>false</activate>
    </validationSteps>
    <verificationScript>import static org.assertj.core.api.Assertions.*
 

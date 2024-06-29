@@ -12,17 +12,24 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>caf468f5-f201-458b-8821-91ef1cb8543f</testSuiteGuid>
    <testCaseLink>
-      <guid>de062d41-095e-4468-aea1-e0921bec022c</guid>
+      <guid>75783a39-242d-4d9e-85c2-62c13aa2734d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/REST_TEST1</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>2cd87ef3-af6b-4e2c-8326-33db9506cc3a</guid>
+      <guid>6eb95ec9-a1e0-4717-a851-70cb07a19974</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/SOAP_TEST1</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>67828f3c-19a1-49c7-8a8d-2e9b3f048bdd</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/APIVerification1</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

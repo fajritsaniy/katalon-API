@@ -17,15 +17,15 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WS.sendRequest(findTestObject('API/SOAP/AddInteger'))
+WS.sendRequest(findTestObject('API/REST/Get List User'))
 
-WS.sendRequest(findTestObject('API/SOAP/DivideInteger'))
+response = WS.sendRequestAndVerify(findTestObject('API/REST/Get List User'))
 
-WS.sendRequest(findTestObject('API/SOAP/FindPerson'))
+WS.verifyElementPropertyValue(response, 'data[2].first_name', 'Emma')
 
-WS.sendRequest(findTestObject('API/SOAP/GetByName'))
+WS.verifyElementsCount(response, 'data', 6)
 
-WS.sendRequest(findTestObject('API/SOAP/GetDataSetByName'))
+WS.verifyResponseStatusCode(response, 200, FailureHandling.STOP_ON_FAILURE)
 
-WS.sendRequest(findTestObject('API/SOAP/GetListByName'))
+WS.verifyResponseStatusCodeInRange(response, 200, 204)
 

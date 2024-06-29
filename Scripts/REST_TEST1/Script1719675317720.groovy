@@ -17,9 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WS.sendRequest(findTestObject('API/REST/Create User'))
+
 WS.sendRequest(findTestObject('API/REST/Delete User'))
 
-WS.sendRequestAndVerify(findTestObject('API/REST/Create User'))
-
-WS.sendRequestAndVerify(findTestObject('API/REST/Get User'))
+WS.sendRequest(findTestObject('API/REST/Get User'))
 

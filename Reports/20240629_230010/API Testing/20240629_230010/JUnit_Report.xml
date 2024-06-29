@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="API Testing" time="12.111" tests="2" failures="0" errors="0">
+   <testsuite name="API Testing" tests="2" failures="0" errors="0" time="12.111" skipped="0" timestamp="29-06-2024T23:00:11" hostname="fajri - localhost" id="Test Suites/API Testing">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="/Users/fajri/git/katalon-API/Reports/20240629_230010/API Testing/20240629_230010"/>
+         <property name="logFiles" value="/Users/fajri/git/katalon-API/Reports/20240629_230010/API Testing/20240629_230010/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="fajri - localhost"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="9.5.0.217"/>
+      </properties>
+      <testcase name="Test Cases/REST_TEST1" time="1.908" classname="Test Cases/REST_TEST1" status="PASSED">
+         <system-out><![CDATA[29-06-2024T23:00:11 - [TEST_CASE][PASSED] - Test Cases/REST_TEST1: Test Cases/REST_TEST1
+
+29-06-2024T23:00:12 - [TEST_STEP][PASSED] - sendRequest(findTestObject("API/REST/Create User")): Send request successfully
+
+29-06-2024T23:00:13 - [MESSAGE][INFO] - HAR: /Users/fajri/git/katalon-API/Reports/20240629_230010/API Testing/20240629_230010/requests/main/0.har
+
+29-06-2024T23:00:13 - [MESSAGE][PASSED] - Send request successfully
+
+29-06-2024T23:00:13 - [TEST_STEP][PASSED] - sendRequest(findTestObject("API/REST/Delete User")): Send request successfully
+
+29-06-2024T23:00:13 - [MESSAGE][INFO] - HAR: /Users/fajri/git/katalon-API/Reports/20240629_230010/API Testing/20240629_230010/requests/main/1.har
+
+29-06-2024T23:00:13 - [MESSAGE][PASSED] - Send request successfully
+
+29-06-2024T23:00:13 - [TEST_STEP][PASSED] - sendRequest(findTestObject("API/REST/Get User")): Send request successfully
+
+29-06-2024T23:00:13 - [MESSAGE][INFO] - HAR: /Users/fajri/git/katalon-API/Reports/20240629_230010/API Testing/20240629_230010/requests/main/2.har
+
+29-06-2024T23:00:13 - [MESSAGE][PASSED] - Send request successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SOAP_TEST1" time="10.127" classname="Test Cases/SOAP_TEST1" status="PASSED">
+         <system-out><![CDATA[29-06-2024T23:00:13 - [TEST_CASE][PASSED] - Test Cases/SOAP_TEST1: Test Cases/SOAP_TEST1
+
+29-06-2024T23:00:13 - [TEST_STEP][PASSED] - sendRequest(findTestObject("API/SOAP/AddInteger")): Send request successfully
+
+29-06-2024T23:00:21 - [MESSAGE][INFO] - HAR: /Users/fajri/git/katalon-API/Reports/20240629_230010/API Testing/20240629_230010/requests/main/3.har
+
+29-06-2024T23:00:21 - [MESSAGE][PASSED] - Send request successfully
+
+29-06-2024T23:00:21 - [TEST_STEP][PASSED] - sendRequest(findTestObject("API/SOAP/DivideInteger")): Send request successfully
+
+29-06-2024T23:00:22 - [MESSAGE][INFO] - HAR: /Users/fajri/git/katalon-API/Reports/20240629_230010/API Testing/20240629_230010/requests/main/4.har
+
+29-06-2024T23:00:22 - [MESSAGE][PASSED] - Send request successfully
+
+29-06-2024T23:00:22 - [TEST_STEP][PASSED] - sendRequest(findTestObject("API/SOAP/FindPerson")): Send request successfully
+
+29-06-2024T23:00:22 - [MESSAGE][INFO] - HAR: /Users/fajri/git/katalon-API/Reports/20240629_230010/API Testing/20240629_230010/requests/main/5.har
+
+29-06-2024T23:00:22 - [MESSAGE][PASSED] - Send request successfully
+
+29-06-2024T23:00:22 - [TEST_STEP][PASSED] - sendRequest(findTestObject("API/SOAP/GetByName")): Send request successfully
+
+29-06-2024T23:00:23 - [MESSAGE][INFO] - HAR: /Users/fajri/git/katalon-API/Reports/20240629_230010/API Testing/20240629_230010/requests/main/6.har
+
+29-06-2024T23:00:23 - [MESSAGE][PASSED] - Send request successfully
+
+29-06-2024T23:00:23 - [TEST_STEP][PASSED] - sendRequest(findTestObject("API/SOAP/GetDataSetByName")): Send request successfully
+
+29-06-2024T23:00:23 - [MESSAGE][INFO] - HAR: /Users/fajri/git/katalon-API/Reports/20240629_230010/API Testing/20240629_230010/requests/main/7.har
+
+29-06-2024T23:00:23 - [MESSAGE][PASSED] - Send request successfully
+
+29-06-2024T23:00:23 - [TEST_STEP][PASSED] - sendRequest(findTestObject("API/SOAP/GetListByName")): Send request successfully
+
+29-06-2024T23:00:23 - [MESSAGE][INFO] - HAR: /Users/fajri/git/katalon-API/Reports/20240629_230010/API Testing/20240629_230010/requests/main/8.har
+
+29-06-2024T23:00:23 - [MESSAGE][PASSED] - Send request successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[29-06-2024T23:00:11 - [TEST_SUITE][PASSED] - API Testing: Test Cases/SOAP_TEST1]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
