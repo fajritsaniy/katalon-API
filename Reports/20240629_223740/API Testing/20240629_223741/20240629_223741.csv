@@ -1,0 +1,15 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+API Testing,,,,29-06-2024 22:37:43,29-06-2024 22:37:51,7.910s,PASSED
+,,,,,,,
+Test Cases/REST_TEST1,,,,29-06-2024 22:37:43,29-06-2024 22:37:46,3.316s,PASSED
+"sendRequest(findTestObject(""API/REST/Delete User""))",,,,29-06-2024 22:37:43,29-06-2024 22:37:45,2.007s,PASSED
+"sendRequestAndVerify(findTestObject(""API/REST/Create User""))",,,,29-06-2024 22:37:45,29-06-2024 22:37:46,0.954s,PASSED
+"sendRequestAndVerify(findTestObject(""API/REST/Get User""))",,,,29-06-2024 22:37:46,29-06-2024 22:37:46,0.246s,PASSED
+,,,,,,,
+Test Cases/SOAP_TEST1,,,,29-06-2024 22:37:46,29-06-2024 22:37:51,4.524s,PASSED
+"sendRequestAndVerify(findTestObject(""API/SOAP/AddInteger""))",,,,29-06-2024 22:37:46,29-06-2024 22:37:48,2.198s,PASSED
+"sendRequest(findTestObject(""API/SOAP/DivideInteger""))",,,,29-06-2024 22:37:48,29-06-2024 22:37:49,0.465s,PASSED
+"sendRequest(findTestObject(""API/SOAP/FindPerson""))",,,,29-06-2024 22:37:49,29-06-2024 22:37:49,0.511s,PASSED
+"sendRequest(findTestObject(""API/SOAP/GetByName""))",,,,29-06-2024 22:37:49,29-06-2024 22:37:50,0.403s,PASSED
+"sendRequest(findTestObject(""API/SOAP/GetDataSetByName""))",,,,29-06-2024 22:37:50,29-06-2024 22:37:50,0.411s,PASSED
+"sendRequest(findTestObject(""API/SOAP/GetListByName""))",,,,29-06-2024 22:37:50,29-06-2024 22:37:51,0.512s,PASSED

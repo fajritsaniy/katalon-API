@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="API Testing" time="7.91" tests="2" failures="0" errors="0">
+   <testsuite name="API Testing" tests="2" failures="0" errors="0" time="7.91" skipped="0" timestamp="29-06-2024T22:37:43" hostname="fajri - localhost" id="Test Suites/API Testing">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="/Users/fajri/git/katalon-API/Reports/20240629_223740/API Testing/20240629_223741"/>
+         <property name="logFiles" value="/Users/fajri/git/katalon-API/Reports/20240629_223740/API Testing/20240629_223741/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="fajri - localhost"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="9.5.0.217"/>
+      </properties>
+      <testcase name="Test Cases/REST_TEST1" time="3.316" classname="Test Cases/REST_TEST1" status="PASSED">
+         <system-out><![CDATA[29-06-2024T22:37:43 - [TEST_CASE][PASSED] - Test Cases/REST_TEST1: Test Cases/REST_TEST1
+
+29-06-2024T22:37:43 - [TEST_STEP][PASSED] - sendRequest(findTestObject("API/REST/Delete User")): Send request successfully
+
+29-06-2024T22:37:45 - [MESSAGE][INFO] - HAR: /Users/fajri/git/katalon-API/Reports/20240629_223740/API Testing/20240629_223741/requests/main/0.har
+
+29-06-2024T22:37:45 - [MESSAGE][PASSED] - Send request successfully
+
+29-06-2024T22:37:45 - [TEST_STEP][PASSED] - sendRequestAndVerify(findTestObject("API/REST/Create User")): Send request and verify the response successfully
+
+29-06-2024T22:37:45 - [MESSAGE][INFO] - HAR: /Users/fajri/git/katalon-API/Reports/20240629_223740/API Testing/20240629_223741/requests/main/1.har
+
+29-06-2024T22:37:46 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+29-06-2024T22:37:46 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+29-06-2024T22:37:46 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+29-06-2024T22:37:46 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 201): Verify response status code successfully
+
+29-06-2024T22:37:46 - [MESSAGE][PASSED] - Verify response status code successfully
+
+29-06-2024T22:37:46 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(201): null
+
+29-06-2024T22:37:46 - [MESSAGE][PASSED] - Verify response successfully
+
+29-06-2024T22:37:46 - [MESSAGE][PASSED] - All validation steps have been passed
+
+29-06-2024T22:37:46 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+29-06-2024T22:37:46 - [TEST_STEP][PASSED] - sendRequestAndVerify(findTestObject("API/REST/Get User")): Send request and verify the response successfully
+
+29-06-2024T22:37:46 - [MESSAGE][INFO] - HAR: /Users/fajri/git/katalon-API/Reports/20240629_223740/API Testing/20240629_223741/requests/main/2.har
+
+29-06-2024T22:37:46 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+29-06-2024T22:37:46 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+29-06-2024T22:37:46 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+29-06-2024T22:37:46 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+29-06-2024T22:37:46 - [MESSAGE][PASSED] - Verify response status code successfully
+
+29-06-2024T22:37:46 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(200): null
+
+29-06-2024T22:37:46 - [MESSAGE][PASSED] - Verify response successfully
+
+29-06-2024T22:37:46 - [MESSAGE][PASSED] - All validation steps have been passed
+
+29-06-2024T22:37:46 - [MESSAGE][PASSED] - Send request and verify the response successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SOAP_TEST1" time="4.524" classname="Test Cases/SOAP_TEST1" status="PASSED">
+         <system-out><![CDATA[29-06-2024T22:37:46 - [TEST_CASE][PASSED] - Test Cases/SOAP_TEST1: Test Cases/SOAP_TEST1
+
+29-06-2024T22:37:46 - [TEST_STEP][PASSED] - sendRequestAndVerify(findTestObject("API/SOAP/AddInteger")): Send request and verify the response successfully
+
+29-06-2024T22:37:48 - [MESSAGE][INFO] - HAR: /Users/fajri/git/katalon-API/Reports/20240629_223740/API Testing/20240629_223741/requests/main/3.har
+
+29-06-2024T22:37:48 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+29-06-2024T22:37:48 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+29-06-2024T22:37:48 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+29-06-2024T22:37:48 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+29-06-2024T22:37:48 - [MESSAGE][PASSED] - Verify response status code successfully
+
+29-06-2024T22:37:48 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(200): null
+
+29-06-2024T22:37:48 - [MESSAGE][PASSED] - Verify response successfully
+
+29-06-2024T22:37:48 - [MESSAGE][PASSED] - All validation steps have been passed
+
+29-06-2024T22:37:48 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+29-06-2024T22:37:48 - [TEST_STEP][PASSED] - sendRequest(findTestObject("API/SOAP/DivideInteger")): Send request successfully
+
+29-06-2024T22:37:49 - [MESSAGE][INFO] - HAR: /Users/fajri/git/katalon-API/Reports/20240629_223740/API Testing/20240629_223741/requests/main/4.har
+
+29-06-2024T22:37:49 - [MESSAGE][PASSED] - Send request successfully
+
+29-06-2024T22:37:49 - [TEST_STEP][PASSED] - sendRequest(findTestObject("API/SOAP/FindPerson")): Send request successfully
+
+29-06-2024T22:37:49 - [MESSAGE][INFO] - HAR: /Users/fajri/git/katalon-API/Reports/20240629_223740/API Testing/20240629_223741/requests/main/5.har
+
+29-06-2024T22:37:49 - [MESSAGE][PASSED] - Send request successfully
+
+29-06-2024T22:37:49 - [TEST_STEP][PASSED] - sendRequest(findTestObject("API/SOAP/GetByName")): Send request successfully
+
+29-06-2024T22:37:50 - [MESSAGE][INFO] - HAR: /Users/fajri/git/katalon-API/Reports/20240629_223740/API Testing/20240629_223741/requests/main/6.har
+
+29-06-2024T22:37:50 - [MESSAGE][PASSED] - Send request successfully
+
+29-06-2024T22:37:50 - [TEST_STEP][PASSED] - sendRequest(findTestObject("API/SOAP/GetDataSetByName")): Send request successfully
+
+29-06-2024T22:37:50 - [MESSAGE][INFO] - HAR: /Users/fajri/git/katalon-API/Reports/20240629_223740/API Testing/20240629_223741/requests/main/7.har
+
+29-06-2024T22:37:50 - [MESSAGE][PASSED] - Send request successfully
+
+29-06-2024T22:37:50 - [TEST_STEP][PASSED] - sendRequest(findTestObject("API/SOAP/GetListByName")): Send request successfully
+
+29-06-2024T22:37:51 - [MESSAGE][INFO] - HAR: /Users/fajri/git/katalon-API/Reports/20240629_223740/API Testing/20240629_223741/requests/main/8.har
+
+29-06-2024T22:37:51 - [MESSAGE][PASSED] - Send request successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[29-06-2024T22:37:43 - [TEST_SUITE][PASSED] - API Testing: Test Cases/SOAP_TEST1]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
