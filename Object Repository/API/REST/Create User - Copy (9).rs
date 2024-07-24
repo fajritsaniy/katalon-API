@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>Create User</name>
+   <name>Create User - Copy (9)</name>
    <tag></tag>
-   <elementGuidId>0c1a94c3-86d8-4b0a-babb-9f9b8abd7790</elementGuidId>
+   <elementGuidId>e9adb8f0-d1d4-4c89-80c0-b1dd1c673ab5</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
