@@ -1,0 +1,23 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+API Testing,,,,29-06-2024 23:22:13,29-06-2024 23:22:18,5.808s,PASSED
+,,,,,,,
+Test Cases/REST_TEST1,,,,29-06-2024 23:22:13,29-06-2024 23:22:14,1.683s,PASSED
+"sendRequest(findTestObject(""API/REST/Create User""))",,,,29-06-2024 23:22:13,29-06-2024 23:22:14,1.101s,PASSED
+"sendRequest(findTestObject(""API/REST/Delete User""))",,,,29-06-2024 23:22:14,29-06-2024 23:22:14,0.400s,PASSED
+"sendRequest(findTestObject(""API/REST/Get User""))",,,,29-06-2024 23:22:14,29-06-2024 23:22:14,0.050s,PASSED
+,,,,,,,
+Test Cases/SOAP_TEST1,,,,29-06-2024 23:22:14,29-06-2024 23:22:18,3.131s,PASSED
+"sendRequest(findTestObject(""API/SOAP/AddInteger""))",,,,29-06-2024 23:22:14,29-06-2024 23:22:16,1.532s,PASSED
+"sendRequest(findTestObject(""API/SOAP/DivideInteger""))",,,,29-06-2024 23:22:16,29-06-2024 23:22:16,0.316s,PASSED
+"sendRequest(findTestObject(""API/SOAP/FindPerson""))",,,,29-06-2024 23:22:16,29-06-2024 23:22:17,0.317s,PASSED
+"sendRequest(findTestObject(""API/SOAP/GetByName""))",,,,29-06-2024 23:22:17,29-06-2024 23:22:17,0.315s,PASSED
+"sendRequest(findTestObject(""API/SOAP/GetDataSetByName""))",,,,29-06-2024 23:22:17,29-06-2024 23:22:17,0.314s,PASSED
+"sendRequest(findTestObject(""API/SOAP/GetListByName""))",,,,29-06-2024 23:22:17,29-06-2024 23:22:18,0.307s,PASSED
+,,,,,,,
+Test Cases/APIVerification1,,,,29-06-2024 23:22:18,29-06-2024 23:22:18,0.909s,PASSED
+"sendRequest(findTestObject(""API/REST/Get List User""))",,,,29-06-2024 23:22:18,29-06-2024 23:22:18,0.424s,PASSED
+"response = sendRequestAndVerify(findTestObject(""API/REST/Get List User""))",,,,29-06-2024 23:22:18,29-06-2024 23:22:18,0.369s,PASSED
+"verifyElementPropertyValue(response, ""data[2].first_name"", ""Emma"")",,,,29-06-2024 23:22:18,29-06-2024 23:22:18,0.015s,PASSED
+"verifyElementsCount(response, ""data"", 6)",,,,29-06-2024 23:22:18,29-06-2024 23:22:18,0.029s,PASSED
+"verifyResponseStatusCode(response, 200, STOP_ON_FAILURE)",,,,29-06-2024 23:22:18,29-06-2024 23:22:18,0.005s,PASSED
+"verifyResponseStatusCodeInRange(response, 200, 204)",,,,29-06-2024 23:22:18,29-06-2024 23:22:18,0.008s,PASSED
