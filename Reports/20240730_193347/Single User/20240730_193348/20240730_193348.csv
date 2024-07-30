@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Single User,,,,30-07-2024 19:33:50,30-07-2024 19:33:51,0.961s,PASSED
+,,,,,,,
+Test Cases/Find User 1,,,,30-07-2024 19:33:50,30-07-2024 19:33:50,0.823s,PASSED
+"sendRequest(findTestObject(""API/REST/Find User""))",,,,30-07-2024 19:33:50,30-07-2024 19:33:50,0.716s,PASSED
+,,,,,,,
+Test Cases/Fetch User 1,,,,30-07-2024 19:33:50,30-07-2024 19:33:51,0.066s,PASSED
+"sendRequest(findTestObject(""API/REST/Fetch User""))",,,,30-07-2024 19:33:51,30-07-2024 19:33:51,0.046s,PASSED

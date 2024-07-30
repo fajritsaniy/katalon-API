@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Acquire User 8</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>6463459d-d6ea-433a-9edf-54577693c30b</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3f547489-d4c2-48be-a726-ab1c1a87be93</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Yustisiawandana'</defaultValue>
+      <description></description>
+      <id>3f547489-d4c2-48be-a726-ab1c1a87be93</id>
+      <masked>false</masked>
+      <name>lastName</name>
+   </variable>
+</TestCaseEntity>

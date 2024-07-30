@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Get User Data" time="1.073" tests="2" failures="0" errors="0">
+   <testsuite name="Get User Data" tests="2" failures="0" errors="0" time="1.073" skipped="0" timestamp="30-07-2024T19:34:30" hostname="fajri - localhost" id="Test Suites/Get User Data">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="/Users/fajri/git/katalon-API/Reports/20240730_193427/Get User Data/20240730_193428"/>
+         <property name="logFiles" value="/Users/fajri/git/katalon-API/Reports/20240730_193427/Get User Data/20240730_193428/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="fajri - localhost"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="9.5.0.217"/>
+      </properties>
+      <testcase name="Test Cases/Query User 20" time="0.868" classname="Test Cases/Query User 20" status="PASSED">
+         <system-out><![CDATA[30-07-2024T19:34:30 - [TEST_CASE][PASSED] - Test Cases/Query User 20: Test Cases/Query User 20
+
+30-07-2024T19:34:30 - [TEST_STEP][PASSED] - sendRequest(findTestObject("API/REST/Query User")): Send request successfully
+
+30-07-2024T19:34:31 - [MESSAGE][INFO] - HAR: /Users/fajri/git/katalon-API/Reports/20240730_193427/Get User Data/20240730_193428/requests/main/0.har
+
+30-07-2024T19:34:31 - [MESSAGE][PASSED] - Send request successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Load User 16" time="0.133" classname="Test Cases/Load User 16" status="PASSED">
+         <system-out><![CDATA[30-07-2024T19:34:31 - [TEST_CASE][PASSED] - Test Cases/Load User 16: Test Cases/Load User 16
+
+30-07-2024T19:34:31 - [TEST_STEP][PASSED] - sendRequest(findTestObject("API/REST/Load User")): Send request successfully
+
+30-07-2024T19:34:31 - [MESSAGE][INFO] - HAR: /Users/fajri/git/katalon-API/Reports/20240730_193427/Get User Data/20240730_193428/requests/main/1.har
+
+30-07-2024T19:34:31 - [MESSAGE][PASSED] - Send request successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[30-07-2024T19:34:30 - [TEST_SUITE][PASSED] - Get User Data: Test Cases/Load User 16]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

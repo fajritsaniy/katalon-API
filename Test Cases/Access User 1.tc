@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Access User 1</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>9912d051-9d99-4cfe-b70b-b5a7d9df692c</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>840ae638-bca0-4c9c-9879-5f9c70445d29</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'fajri'</defaultValue>
+      <description></description>
+      <id>840ae638-bca0-4c9c-9879-5f9c70445d29</id>
+      <masked>false</masked>
+      <name>name</name>
+   </variable>
+</TestCaseEntity>

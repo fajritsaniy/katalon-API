@@ -31,5 +31,11 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/APIVerification1</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>a09ff5ab-5f04-4cb1-b767-b7f99d31c015</variableId>
+      </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

@@ -6,4 +6,17 @@
    <comment></comment>
    <recordOption>OTHER</recordOption>
    <testCaseGuid>478f7368-23e6-4310-a6ee-2500fd0466aa</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a09ff5ab-5f04-4cb1-b767-b7f99d31c015</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Tasikmalaya'</defaultValue>
+      <description></description>
+      <id>a09ff5ab-5f04-4cb1-b767-b7f99d31c015</id>
+      <masked>false</masked>
+      <name>address</name>
+   </variable>
 </TestCaseEntity>

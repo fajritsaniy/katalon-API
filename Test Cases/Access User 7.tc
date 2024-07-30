@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Access User 7</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>408b8d99-d3b5-4e37-a8d9-17c46f784d10</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b90a70e4-9a16-4126-a8b2-52310be77d7f</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'25'</defaultValue>
+      <description></description>
+      <id>b90a70e4-9a16-4126-a8b2-52310be77d7f</id>
+      <masked>false</masked>
+      <name>age</name>
+   </variable>
+</TestCaseEntity>

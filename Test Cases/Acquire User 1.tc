@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Acquire User 1</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>de6bd7b0-9f06-4e86-b4d0-b7964119615b</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>73d3bcbc-a843-4cd6-9547-f99c9a0d9a52</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Tsani'</defaultValue>
+      <description></description>
+      <id>73d3bcbc-a843-4cd6-9547-f99c9a0d9a52</id>
+      <masked>false</masked>
+      <name>middleName</name>
+   </variable>
+</TestCaseEntity>
