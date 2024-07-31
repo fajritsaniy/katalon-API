@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Get More Data of User" time="8.271" tests="6" failures="0" errors="0">
+   <testsuite name="Single User" tests="2" failures="0" errors="0" time="1.479" skipped="0" timestamp="31-07-2024T20:05:33" hostname="fajri - localhost" id="Test Suites/Single User">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="/Users/fajri/git/katalon-API/Reports/20240731_200525/Single User/20240731_200526"/>
+         <property name="logFiles" value="/Users/fajri/git/katalon-API/Reports/20240731_200525/Single User/20240731_200526/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="fajri - localhost"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="9.5.0.217"/>
+      </properties>
+      <testcase name="Test Cases/Find User 1" time="1.251" classname="Test Cases/Find User 1" status="PASSED">
+         <system-out><![CDATA[31-07-2024T20:05:33 - [TEST_CASE][PASSED] - Test Cases/Find User 1: Test Cases/Find User 1
+
+31-07-2024T20:05:33 - [TEST_STEP][PASSED] - sendRequest(findTestObject("API/REST/Find User")): Send request successfully
+
+31-07-2024T20:05:34 - [MESSAGE][INFO] - HAR: /Users/fajri/git/katalon-API/Reports/20240731_200525/Single User/20240731_200526/requests/main/0.har
+
+31-07-2024T20:05:35 - [MESSAGE][PASSED] - Send request successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Fetch User 1" time="0.101" classname="Test Cases/Fetch User 1" status="PASSED">
+         <system-out><![CDATA[31-07-2024T20:05:35 - [TEST_CASE][PASSED] - Test Cases/Fetch User 1: Test Cases/Fetch User 1
+
+31-07-2024T20:05:35 - [TEST_STEP][PASSED] - sendRequest(findTestObject("API/REST/Fetch User")): Send request successfully
+
+31-07-2024T20:05:35 - [MESSAGE][INFO] - HAR: /Users/fajri/git/katalon-API/Reports/20240731_200525/Single User/20240731_200526/requests/main/1.har
+
+31-07-2024T20:05:35 - [MESSAGE][PASSED] - Send request successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[31-07-2024T20:05:33 - [TEST_SUITE][PASSED] - Single User: Test Cases/Fetch User 1]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+   <testsuite name="User Bulk" tests="2" failures="0" errors="0" time="1.005" skipped="0" timestamp="31-07-2024T20:05:36" hostname="fajri - localhost" id="Test Suites/User Bulk">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="/Users/fajri/git/katalon-API/Reports/20240731_200525/User Bulk/20240731_200528"/>
+         <property name="logFiles" value="/Users/fajri/git/katalon-API/Reports/20240731_200525/User Bulk/20240731_200528/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="fajri - localhost"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="9.5.0.217"/>
+      </properties>
+      <testcase name="Test Cases/Get User 13" time="0.854" classname="Test Cases/Get User 13" status="PASSED">
+         <system-out><![CDATA[31-07-2024T20:05:36 - [TEST_CASE][PASSED] - Test Cases/Get User 13: Test Cases/Get User 13
+
+31-07-2024T20:05:36 - [TEST_STEP][PASSED] - sendRequest(findTestObject("API/REST/Get User")): Send request successfully
+
+31-07-2024T20:05:37 - [MESSAGE][INFO] - HAR: /Users/fajri/git/katalon-API/Reports/20240731_200525/User Bulk/20240731_200528/requests/main/0.har
+
+31-07-2024T20:05:37 - [MESSAGE][PASSED] - Send request successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Access User 7" time="0.087" classname="Test Cases/Access User 7" status="PASSED">
+         <system-out><![CDATA[31-07-2024T20:05:37 - [TEST_CASE][PASSED] - Test Cases/Access User 7: Test Cases/Access User 7
+
+31-07-2024T20:05:37 - [TEST_STEP][PASSED] - sendRequest(findTestObject("API/REST/Access User")): Send request successfully
+
+31-07-2024T20:05:37 - [MESSAGE][INFO] - HAR: /Users/fajri/git/katalon-API/Reports/20240731_200525/User Bulk/20240731_200528/requests/main/1.har
+
+31-07-2024T20:05:37 - [MESSAGE][PASSED] - Send request successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[31-07-2024T20:05:36 - [TEST_SUITE][PASSED] - User Bulk: Test Cases/Access User 7]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+   <testsuite name="Get User Data" tests="2" failures="0" errors="0" time="1.246" skipped="0" timestamp="31-07-2024T20:05:39" hostname="fajri - localhost" id="Test Suites/Get User Data">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="/Users/fajri/git/katalon-API/Reports/20240731_200525/Get User Data/20240731_200530"/>
+         <property name="logFiles" value="/Users/fajri/git/katalon-API/Reports/20240731_200525/Get User Data/20240731_200530/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="fajri - localhost"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="9.5.0.217"/>
+      </properties>
+      <testcase name="Test Cases/Query User 20" time="1.018" classname="Test Cases/Query User 20" status="PASSED">
+         <system-out><![CDATA[31-07-2024T20:05:39 - [TEST_CASE][PASSED] - Test Cases/Query User 20: Test Cases/Query User 20
+
+31-07-2024T20:05:39 - [TEST_STEP][PASSED] - sendRequest(findTestObject("API/REST/Query User")): Send request successfully
+
+31-07-2024T20:05:40 - [MESSAGE][INFO] - HAR: /Users/fajri/git/katalon-API/Reports/20240731_200525/Get User Data/20240731_200530/requests/main/0.har
+
+31-07-2024T20:05:40 - [MESSAGE][PASSED] - Send request successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Load User 16" time="0.166" classname="Test Cases/Load User 16" status="PASSED">
+         <system-out><![CDATA[31-07-2024T20:05:40 - [TEST_CASE][PASSED] - Test Cases/Load User 16: Test Cases/Load User 16
+
+31-07-2024T20:05:40 - [TEST_STEP][PASSED] - sendRequest(findTestObject("API/REST/Load User")): Send request successfully
+
+31-07-2024T20:05:40 - [MESSAGE][INFO] - HAR: /Users/fajri/git/katalon-API/Reports/20240731_200525/Get User Data/20240731_200530/requests/main/1.har
+
+31-07-2024T20:05:40 - [MESSAGE][PASSED] - Send request successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[31-07-2024T20:05:39 - [TEST_SUITE][PASSED] - Get User Data: Test Cases/Load User 16]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
